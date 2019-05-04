@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BT thực hành 2</title>
+	<meta charset="utf-8">
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+	#container img {
+		margin: 60px;
+		height: 300px;
+		float: left;
+		width: calc(100% / 3)
+		border: 5pxs;
+		border-style: solid;
+		border-color: pink;
+		border-radius: 20px;
+		transition: all 0.5s linear;
+	}
+
+	body {
+		margin: 0;
+		color: #ffffff;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 15px;
+	}
+
+	div {
+		height: 200px;
+		float: left;
+	}
+
+	#container img:hover {
+		transform: scale(1.2);
+	}
+
+
+	</style>
+</head>
+<body>
+<div id="container">
+	<div>
+<a tabindex="1"><img src="animal/meo.jpg" alt="ảnh mèo" title="mèo"></a>
+<a tabindex="1"><img src="animal/ho.png" alt="ảnh hổ" title="hổ"></a>
+<a tabindex="1"><img src="animal/cao.jpg" alt="ảnh cáo" title="cáo"></a>
+<a tabindex="1"><img src="animal/voi.jpg" alt="ảnh voi" title="voi"></a>
+<a tabindex="1"><img src="animal/lon.jpg" alt="ảnh lon" title="lợn"></a>
+<a tabindex="1"><img src="animal/lacda.png" alt="ảnh lạc đà" title="lạc đà"></a>
+<span></span>
+</div>
+</body>
+</html>
