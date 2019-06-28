@@ -39,3 +39,13 @@ td a{
 tr:nth-child(2n+1){
 	background-color: #f5f5f5;
 }
+
+tbody tr:hover {
+    background-color: #ce6767;
+    animation: opacity 0.3s ease;
+    color: white;
+}
+
+tbody tr:hover a {
+	color: #fff;
+}
