@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+.row img {
+	border: 5px;
+	border-style: solid;
+	border-color: pink;
+	border-radius: 20px;
+	transition: all 0.5s linear;
+}
+
+.row img:hover {
+	transform: scale(1.1);
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: #e7e7e7;
+}
+
+.row h3 {
+	text-align: center;
+}
