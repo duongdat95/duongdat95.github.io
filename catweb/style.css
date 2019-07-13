@@ -1,0 +1,286 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+body {
+	font-family: 'helveticaregular';
+}
+
+.menuto {
+	background-image: url(images/background.png);
+	width: 100%;
+	height: 700px;
+}
+
+.menu {
+	background: none;
+	margin: auto;
+}
+.navbar-light .navbar-brand {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+
+.btn-outline-secondary {
+	color: white;
+}
+
+.login {
+	border: none;
+}
+
+.signup {
+	background: #fff;
+	color: #5B43FF;
+}
+
+.navbar-nav {
+	margin-left: 180px;
+	float: right;
+}
+
+.navbar-light .navbar-toggler {
+	margin-right: 67px;
+}
+
+form.form.my-2.my-lg-0.submit {
+    margin-left: -10px;
+}
+
+.joinnow {
+	padding: 7.5px 0.75rem;
+	background: #5B43FF;
+}
+
+.ndmenu {
+	padding-top: 145px;
+	margin-left: 245px;
+}
+
+h3, h2, p {
+	color: white;
+}
+
+.ndtotal {
+	background: #fff;
+	padding: 10px;
+}
+
+.valuetotal {
+	float: right;
+}
+.donion {
+	font-size: 22px;
+	text-align: center;
+	margin-top: -35px;
+	margin-left: 35px;
+	display: block;
+}
+
+
+
+.eth {
+	float: right;
+	margin-right: 10px;
+}
+
+.sototal {
+	font-size: 40px;
+}
+
+.col-sm-6.khungtotal {
+    position: absolute;
+    top: 538px;
+    left: 156px;
+}
+
+.our-total {
+	margin-top: 90px;
+}
+
+.btn-group {
+	display: flex;
+}
+
+/*hết css menu*/
+
+.nd1 {
+	margin: 100px 0;
+}
+
+.alllogo {
+	width: 100%;
+}
+
+.onelogo {
+	width: 20%;
+	float: left;
+}
+
+.onelogo img {
+	width: auto;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+
+/*hết css nd1*/
+.nd2 {
+	margin-top: 130px;
+}
+
+.what-is-bit {
+	font-size: 18px;
+	color: #E2689A;
+}
+
+.we-building {
+	color: #272727;
+	font-size: 40px;
+}
+
+.sloganbit ul li {
+	list-style-type: none;
+	line-height: 30px;
+	margin: 10px 0.26px;
+}
+
+/*hết nd2*/
+.nd3 {
+	margin: 100px 0; 
+}
+.tdnd3 {
+    text-align: center;
+}
+.logond3 p {
+	color: black;
+}
+
+.how-it-work {
+	text-align: center;
+	color: #E2689A;
+	font-size: 18px;
+	margin-bottom: 30px;
+	font-family: 'helveticabold';
+}
+
+.anhlogo1 p {
+	font-size: 20px;
+}
+
+/*hết nd3*/
+.nd4 {
+	margin: 100px 0;
+}
+
+.text1 {
+	color: #005CC7;
+	font-size: 30px;
+}
+
+.text2 {
+	color: #272727 ;
+	font-size: 18px;
+}
+
+/*hết nd4*/
+
+.our-plan {
+	margin: 100px 0;
+}
+
+/*hết our plan*/
+
+.nd5 h2 {
+	color: #E2689A;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'helveticabold';
+}
+
+.profile {
+	width: 100%;
+}
+
+.oneperson {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+.oneperson img {
+	height: 160px;
+	width: 160px;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+.persons .oneperson p {
+	color: black;
+	font-size: 16px;
+	font-family: 'helveticabold';
+}
+
+.persons .oneperson h3 {
+	font-size: 20px;
+	color: #3F76C2;
+	font-family: 'helveticabold';
+}
+
+.oneadvisor {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.persons .oneadvisor p {
+	color: black;
+	font-size: 16px;
+	font-family: 'helveticabold';
+}
+
+.persons .oneadvisor h3 {
+	font-size: 20px;
+	color: #3F76C2;
+	font-family: 'helveticabold';
+}
+
+.oneadvisor img {
+	height: 160px;
+	width: 160px;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+/*hết nd5*/
+
+.bg-footer img {
+	width: 100%;
+	height: 500px;
+}
+
+.textdautien {
+	background: black;
+	width: 500px;
+	height: 300px;
+}
+
+.footer-nho {
+	margin-top: 40px;
+}
+
+.footer-nho p {
+	color: #3F76C2;
+	padding: 20px;
+	font-size: 18px;
+	font-family: 'helveticaregular';
+}
+
+.mxh {
+	float: right;
+}
+
