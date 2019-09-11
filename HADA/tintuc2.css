@@ -1,0 +1,349 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*BAT DAU CSS HEADER*/
+nav {
+	width: 100%;
+	background: #190b0800
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1;	
+	top: 0;
+}
+ul {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 13px;
+}
+ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+ul li a:hover {
+	color: #D32931;
+	text-decoration: none;
+}
+ul img {
+	margin-right: 220px;
+}
+.toggle {
+	width: 100%;
+	background: #001f4400;
+	color: #fff;
+	padding: 10px 20px;
+	display: none;
+}
+.toggle .bacham {
+	float: right;
+	padding-top: 40px;
+	font-size: 40px;
+}
+.background {
+	background-image: url(banner.png);
+	width: 100%;
+	height: 601px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 0;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ndmenu {
+	color: white;
+	display: table;
+	margin: auto;
+	height: 350px;
+}
+.ndmenu .container {
+	display: table-cell;
+	vertical-align: middle;
+}
+.ndmenu .welcome {
+	font-family: 'Great Vibes', cursive;
+	font-size: 60px;
+}
+.ndmenu .welcome b {
+	font-family: 'Open Sans', sans-serif;
+	color: #D32931;
+}
+.ndmenu .nutdatban {
+	display: block;
+	text-align: center;
+}
+.ndmenu .nutdatban a {
+	position: absolute;
+	width: 260px;
+	height: 65px;
+	left: 40%;
+	border: 2px solid #FFFFFF;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 38px;
+	text-decoration: none;
+	color: #fff;
+}
+ul li.chamdo a {
+	color: #D32931;
+}
+
+@media (max-width: 767px) {
+	.toggle {
+		display: block;
+	}
+	ul {
+		width: 100%;
+		display: none;
+	}
+	ul li {
+		display: block;
+		text-align: center;
+		background: #e2142d;
+		border-bottom: 1px solid #fff;
+		transition: 0.5s;
+	}
+	ul li:hover {
+		background: #a40e21;
+	}
+
+	ul img {
+		display: none;
+	}
+	.active {
+		display: block;
+	}
+
+	.background {
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		z-index: 0;
+	}
+	
+	.ndmenu .welcome {
+		font-size: 24px;
+	}
+	
+	.ndmenu .nutdatban a {
+		font-size: 14px;
+		left: 30% !important;
+		width: 35%!important;
+		height: 44px!important;
+		padding: 1px!important;
+		margin-top: 10px!important;
+	}
+	ul li.chamdo a {
+		color: #fff;
+	}
+}
+
+@media (max-width: 1024px) {
+	ul img {
+		margin-right: 75px;
+	}
+	ul li a {
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.toggle {
+		display: block;
+	}
+	ul {
+		width: 100%;
+		display: none;
+	}
+	ul li {
+		display: block;
+		text-align: center;
+		background: #e2142d;
+		border-bottom: 1px solid #fff;
+		transition: 0.5s;
+	}
+	ul li:hover {
+		background: #a40e21;
+	}
+	ul img {
+		display: none;
+	}
+	.active {
+		display: block;
+	}
+	.background {
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		z-index: 0;
+	}
+	.ndmenu .welcome {
+		font-size: 24px;
+	}
+	.ndmenu .nutdatban a {
+		font-size: 14px;
+		left: 43%;
+		width: 14%;
+		height: 41px;
+		padding: 0px;
+		margin-top: 10px;
+	}
+	ul li.chamdo a {
+		color: #fff;
+	}
+}
+/*HET CSS HEADER*/
+.timetintuc {
+	float: left;
+	margin-right: 25px;
+}
+.doantintuc {
+	line-height: 24px;
+	font-size: 16px;
+}
+.kettintuc .share {
+	float: right;
+}
+.kettintuc .share, .kettintuc .nguoidang {
+	font-weight: bold;
+	font-size: 16px;
+}
+.kettintuc span {
+	margin: 0 3px;
+}
+
+
+
+
+
+
+
+
+
+/*BAT DAU CSS FOOTER*/
+.allfooter {
+	background-color: #222222;
+	padding-top: 10px;
+}
+.footertop {
+	color: #fff;
+	position: relative;
+	height: auto;
+}
+.footertop .cotf1 span {
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	top: 80px;
+    left: 95px;
+}
+.footertop .cotf1 p {
+	font-size: 14px;
+	line-height: 19px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.cotf2 {
+	padding: 0px 50px;
+}
+.footertop .cotf2 h4 {
+	font-weight: bold;
+    font-size: 18px;
+    padding-top: 80px;
+    padding-bottom: 9px;
+}
+.motdong {
+	position: relative;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.motdong img {
+	float: left;
+	padding-right: 12px;
+	padding-top: 8px;
+}
+.motdong span {
+	font-size: 16px;
+	color: #999999;
+}
+.cotf3 h4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.cotf3 p {
+	font-weight: bold;
+	font-size: 14px
+}
+.cotf3 .p2 {
+	font-size: 13px;
+	color: #999999;
+}
+.cotf3 {
+	padding: 78px 32px;
+}
+.cotf3 .khoangcach {
+	padding-right: 80px;
+}
+.footerduoi {
+	font-size: 14px;
+	color: #999999;
+	border-top: 1px solid #fff;
+	text-align: center;
+}
+@media (max-width: 768px) {
+	.footertop .nutxemthem a {
+		float: left;
+		margin-bottom: 15px;
+	}
+	.cotf2 {
+		padding: 0 20px;
+	}
+	.cotf3 h4 {
+    	padding-bottom: 15px;
+	}
+	.cotf2, .cotf3 {
+		margin: -20px 0;
+	}
+	.cotf2 h4 {
+		padding-top: 58px!important;
+	}
+	.cotf3 .khoangcach {
+		padding-right: 20px!important;
+	}
+}
+@media (max-width: 576px) {
+	.cotf1, .cotf2, .cotf3 {
+		border-bottom: 1px solid #fff;
+	}
+}
+@media (max-width: 1024px) {
+	.cotf3 .khoangcach {
+		padding-right: 20px;
+	}
+}
+@media (width: 768px) {
+	.cotf3 .khoangcach {
+		padding-right: 80px!important;
+	}
+}
+/*HET CSS FOOTER*/
