@@ -98,7 +98,7 @@ ul img {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 28px;
-	line-height: 38px;
+	/*line-height: 38px;*/
 	text-decoration: none;
 	color: #fff;
 }
@@ -207,6 +207,7 @@ ul li.chamdo a {
 		height: 41px;
 		padding: 0px;
 		margin-top: 10px;
+		line-height: 38px;
 	}
 	ul li.chamdo a {
 		color: #fff;
@@ -227,12 +228,10 @@ ul li.chamdo a {
 	margin-right: 8px;
 	margin-top: 10px;
 	font-weight: bold;
+	margin-bottom: 78px;
 }
 .formcontact {
 	margin: 78px 0;
-}
-.anhphai {
-	
 }
 .ndformdatban {
 	background-image: url(images/lienhe/blog6.jpg);
@@ -251,10 +250,23 @@ ul li.chamdo a {
 	font-size: 14px;
 	font-weight: normal;
 }
-
-
-
-
+.contacthead {
+	margin-top: 78px;
+}
+.anhtopheader {
+	padding-left: 25px;
+}
+.motkhoicontact .textnho {
+	color: #999;
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 15px;
+}
+.motkhoicontact .textto {
+	color: #D32931;
+	font-weight: bold;
+	font-size: 18px;
+}
 
 
 
@@ -267,6 +279,12 @@ ul li.chamdo a {
 	.ndformdatban {
 		height: auto;
 		width: 100%;
+	}
+	.maincontact h2 {
+		margin-bottom: 10px;
+	}
+	.motkhoicontact .vongtron {
+		margin-top: 20px;
 	}
 }
 @media (max-width: 1024px) {
