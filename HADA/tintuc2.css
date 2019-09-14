@@ -231,11 +231,26 @@ ul li.chamdo a {
 .kettintuc span {
 	margin: 0 3px;
 }
-
-
-
-
-
+.tintucmain {
+	margin-top: 78px;
+}
+.tintucmain .tieude h3 {
+	margin-top: 25px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+}
+.tintucmain .timedate {
+	margin-top: -7px;
+	margin-bottom: 25px;
+}
+.doantintuc p {
+	font-size: 16px;
+}
+.anhminhhoa {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
 
 
