@@ -1,0 +1,794 @@
+/*font-family: 'Pattaya', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Great Vibes', cursive;*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*BAT DAU CSS HEADER*/
+nav {
+	width: 100%;
+	background: #190b0800
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1;	
+	top: 0;
+}
+ul {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 13px;
+}
+ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+ul li a:hover {
+	color: #D32931;
+	text-decoration: none;
+}
+ul img {
+	margin-right: 220px;
+}
+.toggle {
+	width: 100%;
+	background: #001f4400;
+	color: #fff;
+	padding: 10px 20px;
+	display: none;
+}
+.toggle .bacham {
+	float: right;
+	padding-top: 40px;
+	font-size: 40px;
+}
+.background {
+	background-image: url(banner.png);
+	width: 100%;
+	height: 601px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 0;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ndmenu {
+	color: white;
+	display: table;
+	margin: auto;
+	height: 350px;
+}
+.ndmenu .container {
+	display: table-cell;
+	vertical-align: middle;
+}
+.ndmenu .welcome {
+	font-family: 'Great Vibes', cursive;
+	font-size: 60px;
+}
+.ndmenu .welcome b {
+	font-family: 'Open Sans', sans-serif;
+	color: #D32931;
+}
+.ndmenu .nutdatban {
+	display: block;
+	text-align: center;
+}
+.ndmenu .nutdatban a {
+	position: absolute;
+	width: 260px;
+	height: 65px;
+	left: 40%;
+	border: 2px solid #FFFFFF;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	text-decoration: none;
+	color: #fff;
+}
+ul li.chamdo a {
+	color: #D32931;
+}
+
+@media (max-width: 767px) {
+	.toggle {
+		display: block;
+	}
+	ul {
+		width: 100%;
+		display: none;
+	}
+	ul li {
+		display: block;
+		text-align: center;
+		background: #e2142d;
+		border-bottom: 1px solid #fff;
+		transition: 0.5s;
+	}
+	ul li:hover {
+		background: #a40e21;
+	}
+
+	ul img {
+		display: none;
+	}
+	.active {
+		display: block;
+	}
+
+	.background {
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		z-index: 0;
+	}
+	
+	.ndmenu .welcome {
+		font-size: 24px;
+	}
+	
+	.ndmenu .nutdatban a {
+		font-size: 14px;
+		left: 30% !important;
+		width: 35%!important;
+		height: 44px!important;
+		padding: 1px!important;
+		margin-top: 10px!important;
+	}
+	ul li.chamdo a {
+		color: #fff;
+	}
+}
+
+@media (max-width: 1024px) {
+	ul img {
+		margin-right: 75px;
+	}
+	ul li a {
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.toggle {
+		display: block;
+	}
+	ul {
+		width: 100%;
+		display: none;
+	}
+	ul li {
+		display: block;
+		text-align: center;
+		background: #e2142d;
+		border-bottom: 1px solid #fff;
+		transition: 0.5s;
+	}
+	ul li:hover {
+		background: #a40e21;
+	}
+	ul img {
+		display: none;
+	}
+	.active {
+		display: block;
+	}
+	.background {
+		width: 100%;
+		height: auto;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		z-index: 0;
+	}
+	.ndmenu .welcome {
+		font-size: 24px;
+	}
+	.ndmenu .nutdatban a {
+		font-size: 14px;
+		left: 43%;
+		width: 14%;
+		height: 41px;
+		padding: 0px;
+		margin-top: 10px;
+		line-height: 38px;
+	}
+	ul li.chamdo a {
+		color: #fff;
+	}
+}
+/*HET CSS HEADER*/
+
+/*BAT DAU CSS ABOUT US*/
+.aboutus {
+	margin-top: 45px;
+	padding-bottom: 90px;
+}
+.aboutus .iconus img {
+	margin-left: -8px;
+	display: block;
+	margin-bottom: 5px;
+}
+.aboutus .hadarestaurant h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.aboutus .vechungtoi h1 {
+	font-size: 60px;
+	font-family: 'Pattaya', sans-serif;
+	color: #D32931;
+	margin: 20px 0;
+}
+.aboutus .gioithieu p {
+	width: 282px;
+	height: 96px;
+	margin-top: -10px;
+	font-weight: normal;
+}
+.aboutus .gioithieu .p2 {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.nutxemthem a {
+	width: 126px;
+	height: 39px;
+	border-radius: 0;
+}
+.aboutus .phai img {
+	width: 650px;
+	height: 464px;
+	background-size: cover;
+	background-position: center center;
+	margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+	.aboutus {
+		margin-top: 78px!important;
+		padding-bottom: 20px;
+	}
+	.aboutus .trai {
+		width: auto;
+		height: auto;
+	}
+	.aboutus .phai img {
+		width: 100%;
+		height: auto;
+		margin-top: 20px;
+	}
+	.aboutus .iconus img {
+		display: block;
+		margin: auto;
+	}
+	.aboutus .hadarestaurant h3 {
+		text-align: center;
+	}
+	.aboutus .vechungtoi h1 {
+		text-align: center;
+		font-size: 40px;
+	}
+	.aboutus .gioithieu p {
+		margin: auto;
+	}
+	.nutxemthem a {
+		display: block;
+		margin: 0 auto;
+	}
+	.aboutus .phai img {
+		margin-left: 0px;
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-width: 1024px) {
+	.aboutus {
+		margin-top: 78px;
+		margin-bottom: 78px;
+	}
+	.aboutus .vechungtoi h1 {
+		font-size: 40px;
+	}
+}
+/*HET CSS ABOUT US*/
+
+/*BAT DAU CSS FEATURE*/
+.anhtopheader {
+	margin-bottom: 45px;
+}
+.anhtopheader img {
+   
+}
+.feature .ctfeature img {
+	background-size: cover;
+}
+.motkhoifeature .infomation {
+	margin-top: 10px!important;
+	font-weight: bold;
+	color: #000000;
+}
+.motkhoifeature .contentfeature p {
+	font-size: 16px;
+	line-height: 22px;
+	color: #999999;
+	margin-bottom: 35px;
+}
+.feature {
+	margin-top: 45px;
+	padding-bottom: 90px;
+}
+@media (max-width: 768px) {
+	.motkhoifeature .contentfeature p {
+		margin-bottom: 78px;
+	}
+	.feature .ctfeature img {
+		margin-top: 10px;
+	}
+	.feature {
+		padding-bottom: 20px;
+	}
+}
+/*HET CSS FEATURE*/
+
+/*BAT DAU CSS SPECIAL*/
+.specialhada {
+	padding-bottom: 90px;
+	margin-top: -30px;
+}
+.specialhada .anhtopheader {
+	padding-bottom: 20px;
+}
+.ctspecial {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.ctspecial .khoi2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.ctspecial .khoi2 {
+	position: relative;
+	z-index: 0;
+}
+.ctspecial .khoi1 {
+	background: #fff;
+	border: 2px solid #000000;
+	width: 592px;
+	height: 378px;
+	position: absolute;
+	z-index: 1;
+	left: 75px;
+    top: 27px;
+    padding: 30px 20px;
+}
+.ctspecial .khoi1 .ndkhoi1 {
+	position: relative;
+	z-index: 0;
+	width: 100%;
+}
+
+.ctspecial .khoi1 .ndkhoi1 .muiten {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	z-index: 1;
+}
+.ctspecial .khoi1 .thucdondacbiet h3 {
+	font-weight: bold;
+	font-size: 24px;
+	color: #000000;
+}
+.ctspecial .khoi1 .loaithucdon h2 {
+	font-weight: bold;
+	font-size: 31px;
+}
+.ctspecial .khoi1 .ctthucdon {
+	font-weight: bold;
+	font-size: 18px; 
+}
+.ctspecial .khoi1 .ctthucdon .monanduoi {
+	font-style: italic;
+	font-weight: 500;
+	font-size: 14px;
+	color: #C4C4C4;
+}
+.ctthucdon .monantren {
+	border-bottom: 2px dotted #000;
+	margin-bottom: 12px;
+}
+.ctthucdon b.ten {
+	background: #fff;
+	display: inline-block;
+	transform: translateY(9px);
+}
+.ctthucdon .monantren span {
+	background: #fff;
+	display: inline-block;
+	transform: translateY(9px);
+}
+
+@media (max-width: 768px) {
+	.ctspecial .khoi2 {
+		position: relative;
+		z-index: 0;
+	}
+	.ctspecial .khoi1 {
+		position: relative;
+		z-index: 0;
+		left: 0;
+	    top: 0;
+	    width: 100%;
+	   	max-height: 768px;
+	   	margin-bottom: 20px;
+	}
+	.ctspecial .khoi1 .thucdondacbiet h3 {
+		font-size: 18px;
+	}
+	.ctspecial .khoi1 .loaithucdon h2 {
+		font-size: 20px;
+	}
+	.ctspecial .khoi1 .ctthucdon {
+		font-size: 16px;
+		margin-top: 20px; 
+	}
+	.ctspecial .khoi1 .ctthucdon .monanduoi {
+		font-size: 12px;
+	}
+	.ndkhoi1 .loaithucdon h2 {
+		margin-left: 5px;
+	}
+	.specialhada {
+		margin-bottom: 78px;
+	}
+}
+/*HET CSS SPECIAL*/
+
+/*BAT DAU CSS THUVIENANH*/
+.thuvienanhhome	{
+	padding-bottom: 90px;
+	margin-top: -30px;
+}
+.thuvienanhhome .anhtopheader {
+	
+}
+.allanh .col-sm-6, .allanh .col-md-3 {
+	margin-bottom: 25px;
+	text-align: center;
+}
+.ctthuvienanh img {
+	background-size: cover;
+	max-width: 100%;
+}
+.ctthuvienanh .nutxemthem a {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 78px;
+}
+
+.ctthuvienanh h1 {
+	font-size: 34px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: -40px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+	.ctthuvienanh h1 {
+		font-size: 30px;
+		margin-bottom: 20px;
+		
+	}
+	.thuvienanhhome {
+		margin-top: -75px;
+	}
+}
+@media (max-width: 1024px) {
+	.thuvienanhhome .anhtopheader {
+		margin-top: 78px;
+	}
+}
+/*HET CSS THUVIENANH*/
+
+/*BAT DAU CSS TINTUC & SUKIEN*/
+.tintuchome .anhtopheader {
+	margin-top: -78px;
+}
+.tintuchome .anhtopheader {
+	
+}
+.tintuchome {
+	padding-bottom: 90px;
+	margin-top: -30px;
+}
+.maintintuc a img {
+	background-size: cover;
+	max-width: 100%;
+}
+.maintintuc .timetintuc {
+	float: left;
+	margin-right: 25px;
+}
+.maintintuc .timetintuc span {
+	color: #777777;
+	font-size: 14px;
+}
+.maintintuc .nguoidang span {
+	color: #777777;
+	font-size: 14px;
+}
+.maintintuc .timetintuc span, .maintintuc .nguoidang span {
+	margin-top: 12px;
+	margin-left: 3px;
+} 
+.maintintuc .timedate {
+	margin-bottom: 15px;
+}
+.noidungtintuc a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.75);
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	max-width: 326px;
+	height: auto;
+}
+.noidungtintuc p {
+	padding-top: 12px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.75);
+	max-width: 326px;
+}
+@media (max-width: 768px) {
+	.tintuchome {
+		margin-top: -75px;
+	}
+	.maintintuc .nutxemthem {
+		margin-bottom: 20px;
+		float: left;
+	}
+	.maintintuc .timedate {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 1024px) {
+	.maintintuc .nutxemthem {
+		margin-bottom: 30px;
+	}
+	.noidungtintuc a {
+		font-size: 16px;
+	}
+	.noidungtintuc p {
+		font-size: 14px;
+	}
+}
+/*HET CSS TINTUC*/ 
+
+/*BAT DAU CSS DATBAN*/
+.reservationhome {
+	max-width: 100%;
+	height: 100%;
+	background-image: url(images/trangchu/datban.png);
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+
+}
+.headerdatban {
+	padding: 30px 0;
+	position: absolute;
+	top: 0px;
+}
+.headerdatban img {
+	display: block;
+	margin: auto;
+}
+.headerdatban h3 {
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+	font-family: 'Pattaya', sans-serif;
+}
+
+.reservationhome .maindatban {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+.reservationhome .maindatban .formdatban {
+	position: absolute;
+	width: 40%;
+	height: 50%;
+	background: #fff0;
+	padding-top: 10px;
+}
+.formdatban .tieudedatban h3 {
+	color: #fff;
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+}
+.ndformdatban {
+	padding-top: 20px;
+}
+.formdatban a.btn.btn-danger.datban2 {
+    width: 100%;
+}
+.ndformdatban .form-group input {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+
+
+@media (max-width: 767px) {
+	.headerdatban h3 {
+		font-size: 40px;
+	}
+	.formdatban .tieudedatban h3 {
+		display: none;
+	}
+	.reservationhome .maindatban .formdatban {
+		padding-top: 15px;
+	}
+	.headerdatban {
+		padding-top: 70px;
+	}
+	.reservationhome {
+		background-position: center center;
+		margin-top: -78px;
+	}
+	.reservationhome .maindatban .formdatban {
+		width: 60%;
+	}
+}
+@media (max-width: 1024px) {
+	.ndformdatban .form-group input {
+		font-size: 10px;
+	}
+	.formdatban .tieudedatban h3 {
+		font-size: 30px;
+	}
+	.reservationhome {
+		max-width: 100%;
+		height: 500px;
+		background-position: center center
+	}
+	.reservationhome .maindatban .formdatban {
+		padding-top: 30px;
+	}
+}
+/*HET CSS DATBAN*/
+
+/*BAT DAU CSS FOOTER*/
+.allfooter {
+	background-color: #222222;
+	padding-top: 10px;
+}
+.footertop {
+	color: #fff;
+	position: relative;
+	height: auto;
+}
+.footertop .cotf1 span {
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	top: 80px;
+    left: 95px;
+}
+.footertop .cotf1 p {
+	font-size: 14px;
+	line-height: 19px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.cotf2 {
+	padding: 0px 50px;
+}
+.footertop .cotf2 h4 {
+	font-weight: bold;
+    font-size: 18px;
+    padding-top: 80px;
+    padding-bottom: 9px;
+}
+.motdong {
+	position: relative;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.motdong img {
+	float: left;
+	padding-right: 12px;
+	padding-top: 8px;
+}
+.motdong span {
+	font-size: 16px;
+	color: #999999;
+}
+.cotf3 h4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.cotf3 p {
+	font-weight: bold;
+	font-size: 14px
+}
+.cotf3 .p2 {
+	font-size: 13px;
+	color: #999999;
+}
+.cotf3 {
+	padding: 78px 32px;
+}
+.cotf3 .khoangcach {
+	padding-right: 80px;
+}
+.footerduoi {
+	font-size: 14px;
+	color: #999999;
+	border-top: 1px solid #fff;
+	text-align: center;
+}
+@media (max-width: 768px) {
+	.footertop .nutxemthem a {
+		float: left;
+		margin-bottom: 15px;
+	}
+	.cotf2 {
+		padding: 0 20px;
+	}
+	.cotf3 h4 {
+    	padding-bottom: 15px;
+	}
+	.cotf2, .cotf3 {
+		margin: -20px 0;
+	}
+	.cotf2 h4 {
+		padding-top: 58px!important;
+	}
+	.cotf3 .khoangcach {
+		padding-right: 20px!important;
+	}
+}
+@media (max-width: 576px) {
+	.cotf1, .cotf2, .cotf3 {
+		border-bottom: 1px solid #fff;
+	}
+}
+@media (max-width: 1024px) {
+	.cotf3 .khoangcach {
+		padding-right: 20px;
+	}
+}
+@media (width: 768px) {
+	.cotf3 .khoangcach {
+		padding-right: 80px!important;
+	}
+}
+/*HET CSS FOOTER*/
