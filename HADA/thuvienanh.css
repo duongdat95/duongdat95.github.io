@@ -98,7 +98,6 @@ ul img {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 28px;
-	line-height: 38px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -207,6 +206,7 @@ ul li.chamdo a {
 		height: 41px;
 		padding: 0px;
 		margin-top: 10px;
+		line-height: 38px;
 	}
 	ul li.chamdo a {
 		color: #fff;
@@ -225,19 +225,18 @@ ul li.chamdo a {
 .filter {
 	margin-bottom: 34px;
 }
-.filter select {
-	display: inline-block;
-	border: 1px solid #000;
-	font-size: 18px;
-	color: #000; 
-	padding: 10px;
+.main .filter {
+	text-align: center;
 }
-.filter h3 {
+.filter .tieudect {
 	display: inline-block;
-	margin-right: 20px;
-	font-size: 18px;
-	color: #000;
+}
+.filter .tieudect a {
+	text-decoration: none;
+	color: #544c4c;
 	font-weight: bold;
+	font-size: 18px;
+	padding: 0 18px; 
 }
 .nuthienthi {
 	margin-bottom: 34px;
@@ -247,14 +246,23 @@ ul li.chamdo a {
 }
 .allanh img {
 	margin-bottom: 30px;
+	padding: 0 25px;
+}
+.tieudect a:focus {
+	color: #e2142d;
+}
+.tieudect a:hover {
+	color: #e2142d;
 }
 
 
 
 
-
-
-
+@media (max-width: 767px) {
+	.filter .tieudect a {
+		font-size: 14px;
+	}
+}
 /*BAT DAU CSS FOOTER*/
 .allfooter {
 	background-color: #222222;

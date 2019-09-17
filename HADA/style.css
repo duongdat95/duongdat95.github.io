@@ -101,7 +101,6 @@ ul img {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 28px;
-	line-height: 38px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -210,6 +209,7 @@ ul li.chamdo a {
 		height: 41px;
 		padding: 0px;
 		margin-top: 10px;
+		line-height: 38px;
 	}
 	ul li.chamdo a {
 		color: #fff;
@@ -472,8 +472,7 @@ ul li.chamdo a {
 	
 }
 .allanh .col-sm-6, .allanh .col-md-3 {
-	padding-left: 0;
-	padding-right: 0;
+	margin-bottom: 25px;
 	text-align: center;
 }
 .ctthuvienanh img {

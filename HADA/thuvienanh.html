@@ -35,12 +35,12 @@
 				<a class="navbar-brand" href="#">
 					<img src="brand.png" alt="logo">
 				</a>
-				<li class="chamdo"><a href="">Trang chủ</a></li>
-				<li><a href="">Giới Thiệu</a></li>
-				<li><a href="">Menu</a></li>
-				<li><a href="">Thư Viện Ảnh</a></li>
-				<li><a href="">Tin Tức</a></li>
-				<li><a href="">Liên Hệ</a></li>
+				<li class="chamdo"><a href="index.html">Trang chủ</a></li>
+				<li><a href="about.html">Giới Thiệu</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="thuvienanh.html">Thư Viện Ảnh</a></li>
+				<li><a href="tintuc.html">Tin Tức</a></li>
+				<li><a href="lienhe.html">Liên Hệ</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -58,15 +58,12 @@
 <section class="main">
 	<div class="container">
 		<div class="filter">
-			<h3>
-				Sắp xếp theo:
-			</h3>
-			<select>
-				<option value="sang" selected>Bữa Sáng</option>
-				<option value="toi" class="hieuung">Bữa Tối</option>
-				<option value="dessert" class="hieuung">Tráng Miệng</option>
-				<option value="drink" class="hieuung">Đồ Uống</option>
-			</select>
+			<div class="tieudect">
+				<a href="" data-monan="*">ALL</a>
+				<a href="" data-monan=".sang">Breakfast</a>
+				<a href="" data-monan=".lunch">Lunch</a>
+				<a href="" data-monan=".dinner">Dinner</a>
+			</div>
 		</div>
 	</div>
 
@@ -75,43 +72,41 @@
 	<div class="allanh">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4 motanh sang">
 					<img src="images/thuvienanh/anh1.png" alt="" class="img-fluid">
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4 motanh lunch toi">
 					<img src="images/thuvienanh/anh6.png" alt="" class="img-fluid">
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4 motanh dinner sang">
 					<img src="images/thuvienanh/anh3.png" alt="" class="img-fluid">
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4 motanh sang toi">
 					<img src="images/thuvienanh/anh4.png" alt="" class="img-fluid">
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4 motanh toi">
 					<img src="images/thuvienanh/anh5.png" alt="" class="img-fluid">
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4 motanh dinner sang">
 					<img src="images/thuvienanh/thuvienanh4.png" alt="" class="img-fluid">
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4 motanh sang dinner">
 					<img src="images/thuvienanh/thuvienanh3.png" alt="" class="img-fluid">
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4 motanh lunch toi">
 					<img src="images/thuvienanh/thuvienanh2.png" alt="" class="img-fluid">
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4 motanh dinner lunch">
 					<img src="images/thuvienanh/anh2.png" alt="" class="img-fluid">
 				</div>
 			</div>
 		</div>
 		
-		<div class="nuthienthi">
-			<div class="container text-center">
-				<a href="" class="btn btn-danger">Hiển Thị Thêm</a>
-			</div>
-		</div>
+		
 		
 	</div>
+
+
 
 </div>
 </section>
@@ -245,6 +240,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="vendor/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="vendor/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>	
