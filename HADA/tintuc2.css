@@ -251,10 +251,47 @@ ul li.chamdo a {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-
-
-
-
+.baivietmoi {
+	margin-top: 78px;
+	margin-bottom: 78px;
+}
+.icon2 {
+	margin-bottom: 10px;
+}
+.tdbaiviet {
+	color: #e2142d;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.cttieude {
+	color: #999;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.timedate {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.timetintuc span, .nguoidang span {
+	color: #777;
+	font-size: 14px;
+}
+.noidungtintuc a {
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+.noidungtintuc p {
+	padding-top: 12px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.75);
+    max-width: 326px;
+}
+.khoibaivietmoi .nutxemthem {
+	margin-bottom: 30px;
+}
 /*BAT DAU CSS FOOTER*/
 .allfooter {
 	background-color: #222222;

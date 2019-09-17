@@ -242,6 +242,7 @@ ul li.chamdo a {
 } 
 .maintintuc .timedate {
 	margin-bottom: 15px;
+	margin-top: 5px;
 }
 .noidungtintuc a {
 	text-decoration: none;
@@ -277,6 +278,14 @@ ul li.chamdo a {
 }
 
 .pagination li a {
+	color: #999;
+	background: #fff;
+}
+.page-item.active .page-link {
+	background: #e2142d;
+	border: none;
+}
+.page-link:hover {
 	color: #fff;
 	background: #e2142d;
 }
