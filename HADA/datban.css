@@ -242,6 +242,81 @@ ul li.chamdo a {
 	font-size: 16px;
 	margin-top: 15px;
 }
+.tdslide, .doantext, .tenkh {
+	color: #fff;
+}
+.doantext {
+	font-size: 16px;
+	line-height: 24px;
+	width: 964px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.tdslide {
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 34px;
+}
+.motslide {
+	margin-top: 45px;
+}
+.kyhieu {
+	margin-bottom: 20px;
+}
+.anhkh img {
+	border-radius: 50%;
+	margin-bottom: 15px;
+}
+.namstar {
+	margin-bottom: 15px;
+} 
+.tenkh {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+@media (max-width: 767px) {
+	.motkhoi .nutxemthem {
+		margin-bottom: 2rem;
+	}
+	.motkhoi nut2 {
+		margin-bottom: 0;
+	}
+	.nhanxet {
+		margin-top: 30px;
+	}
+	.tdslide {
+		font-size: 16px!important;
+	}
+	.doantext {
+		width: 300px;
+		height: auto;
+		font-size: 12px!important;
+		text-align: left;
+	}
+	.tenkh {
+		font-size: 16px!important;
+	}
+}
+@media (width: 768px) {
+	.tdslide {
+		font-size: 16px!important;
+	}
+	.doantext {
+		width: 600px!important;
+		height: auto;
+		font-size: 16px!important;
+	}
+}
+@media (width: 1024px) {
+	.doantext {
+		width: 854px;
+	}
+}
 @media (max-width: 767px) {
 	.motkhoi .nutxemthem {
 		margin-bottom: 2rem;
