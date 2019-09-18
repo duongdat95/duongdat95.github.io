@@ -325,7 +325,7 @@ ul li.chamdo a {
 	padding: 78px 32px;
 }
 .cotf3 .khoangcach {
-	padding-right: 20px;
+	padding-right: 80px;
 }
 .footerduoi {
 	font-size: 14px;
@@ -338,20 +338,35 @@ ul li.chamdo a {
 		float: left;
 		margin-bottom: 15px;
 	}
-	.cotf2 h4 {
-		text-align: center;
+	.cotf2 {
+		padding: 0 20px;
 	}
 	.cotf3 h4 {
-		margin: auto;
     	padding-bottom: 15px;
 	}
 	.cotf2, .cotf3 {
 		margin: -20px 0;
 	}
+	.cotf2 h4 {
+		padding-top: 58px!important;
+	}
+	.cotf3 .khoangcach {
+		padding-right: 20px!important;
+	}
 }
 @media (max-width: 576px) {
 	.cotf1, .cotf2, .cotf3 {
 		border-bottom: 1px solid #fff;
+	}
+}
+@media (max-width: 1024px) {
+	.cotf3 .khoangcach {
+		padding-right: 20px;
+	}
+}
+@media (width: 768px) {
+	.cotf3 .khoangcach {
+		padding-right: 80px!important;
 	}
 }
 /*HET CSS FOOTER*/
