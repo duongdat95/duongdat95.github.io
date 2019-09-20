@@ -220,6 +220,9 @@ ul li.chamdo a {
 	padding-bottom: 90px;
 	margin-top: 78px;
 }
+.maintintuc {
+	margin-top: 34px;
+}
 .maintintuc a img {
 	background-size: cover;
 	max-width: 100%;
@@ -288,6 +291,9 @@ ul li.chamdo a {
 .page-link:hover {
 	color: #fff;
 	background: #e2142d;
+}
+.motkhoi {
+	margin-bottom: 34px;
 }
 @media (max-width: 767px) {
 	.maintintuc {
