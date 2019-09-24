@@ -277,7 +277,9 @@ ul li.chamdo a {
 	font-size: 18px;
 	font-weight: bold;
 }
-
+.anhtopheader {
+	margin: 34px 0;
+}
 
 @media (max-width: 767px) {
 	.motkhoi .nutxemthem {
