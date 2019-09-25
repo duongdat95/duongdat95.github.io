@@ -525,7 +525,7 @@ ul li.chamdo a {
 }
 .maintintuc a img {
 	background-size: cover;
-	max-width: 100%;
+	width: 100%;
 }
 .maintintuc .timetintuc {
 	float: left;
